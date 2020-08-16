@@ -1,0 +1,39 @@
+div.switch_btn{
+    position: relative;
+    float:right;
+    right:9.5%;
+    width:60%;
+    height:50;
+    margin-top:30px;
+}
+div.arrow_left{
+    position: absolute;
+    float:left;
+    left:10%;
+    display:none;
+    width: 70px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #eee;
+    text-align: center;
+    opacity: .6;
+    cursor: pointer;
+    z-index: 100;
+    cursor: pointer;
+}
+
+div.arrow_right{
+    position: absolute;
+    float:left;
+    left:82%;
+    display:none;
+    width: 70px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #eee;
+    text-align: center;
+    opacity: .6;
+    cursor: pointer;
+    z-index: 100;
+    cursor: pointer;
+}

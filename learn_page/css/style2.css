@@ -1,0 +1,16 @@
+ul{
+    list-style-type: none;
+    border:black 2px black;
+    background-color: #eee;
+}
+
+div.preview{
+    width:150px;
+    height:100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: 150px,100px;
+}
+
+
