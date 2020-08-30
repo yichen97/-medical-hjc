@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Blob Test</title>
+  
+</head>
+
+<body>
+  <a>下载</a>
+  <script>  
+    function createDownloadFile() {
+      var content = "Blob Data";
+      var blob = new Blob([content]);
+      var link = document.querySelectorAll('a')[0];
+      link.download = "file";
+      link.href = URL.createObjectURL(blob);
+    }
+    window.onload = createDownloadFile;
+</script>
+</body>
+
+
+</html>
